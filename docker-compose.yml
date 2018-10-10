@@ -1,0 +1,10 @@
+version: '3'
+services:
+  duckling:
+    image: duckling:0.1.4.0
+    build:
+      context: ./nlu
+      dockerfile: Dockerfile-duckling
+    ports:
+      - "8000:8000"
+    command: stack exec duckling-example-exe

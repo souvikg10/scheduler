@@ -1,0 +1,1 @@
+FROM rasa/duckling:0.1.4.0

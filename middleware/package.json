@@ -1,0 +1,21 @@
+{
+  "name": "middleware",
+  "version": "1.0.0",
+  "description": "Middleware that routes the different scheduling activities",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "keywords": [
+    "middleware",
+    "nodejs",
+    "routing",
+    "engine"
+  ],
+  "author": "Souvik Ghosh",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  }
+}
